@@ -1,0 +1,128 @@
+[
+  {
+    "ContainingType": "lab2.Models.APIGameController",
+    "Method": "GetAllGamelevel",
+    "RelativePath": "api/APIGame/GetAllGamelevel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lab2.Models.APIGameController",
+    "Method": "GetAllQuestion",
+    "RelativePath": "api/APIGame/GetAllQuestion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lab2.Models.APIGameController",
+    "Method": "GetAllQuestionGameByLevel",
+    "RelativePath": "api/APIGame/GetAllQuestionGameByLevel/{levelId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "levelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lab2.Models.APIGameController",
+    "Method": "GetAllRegion",
+    "RelativePath": "api/APIGame/GetAllRegion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lab2.Models.APIGameController",
+    "Method": "GetUserInformation",
+    "RelativePath": "api/APIGame/GetUserInformation/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lab2.Models.APIGameController",
+    "Method": "Login",
+    "RelativePath": "api/APIGame/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "Microsoft.AspNetCore.Identity.Data.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lab2.Models.APIGameController",
+    "Method": "Rating",
+    "RelativePath": "api/APIGame/Rating/{idRegion}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRegion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lab2.Models.APIGameController",
+    "Method": "Register",
+    "RelativePath": "api/APIGame/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDTO",
+        "Type": "lab2.data.DTO.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lab2.Models.APIGameController",
+    "Method": "SaveResult",
+    "RelativePath": "api/APIGame/SaveResult",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "levelResult",
+        "Type": "lab2.Models.LevelResult",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
