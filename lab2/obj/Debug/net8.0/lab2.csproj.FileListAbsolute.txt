@@ -301,3 +301,4 @@ E:\Bài Lab\lab2\lab2\obj\Debug\net8.0\ref\lab2.dll
 E:\Bài Lab\lab2\lab2\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 E:\Bài Lab\lab2\lab2\bin\Debug\net8.0\MailKit.dll
 E:\Bài Lab\lab2\lab2\bin\Debug\net8.0\MimeKit.dll
+E:\Bài Lab\lab2\lab2\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
