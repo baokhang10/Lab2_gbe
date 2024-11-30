@@ -7,6 +7,6 @@ namespace lab2.Models
         [Key]
         public int LevelId { get; set; }
         public string title { get; set; }
-        public string? description { get; set; }
+        public string? Description { get; set; }
     }
 }
